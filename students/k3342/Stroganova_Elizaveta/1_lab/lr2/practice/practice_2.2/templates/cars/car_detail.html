@@ -1,0 +1,3 @@
+<h1>{{ car.brand }} {{ car.model }} ({{ car.license_plate }})</h1>
+<p>Color: {{ car.color }}</p>
+<a href="{% url 'car_update' car.id %}">Edit</a>
